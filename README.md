@@ -9,7 +9,7 @@ Here the final result:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot]('./screenshots/concept.jpg')
 
 ## Requirements
 - you are not allowed to import external CSS framework (like Bootstrap)
