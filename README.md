@@ -9,7 +9,7 @@ Here the final result:
 
 ## Screenshots
 
-![App Screenshot](screenshots/concept.jpg)
+![App Screenshot](/screenshots/concept.jpg)
 
 ## Requirements
 - you are not allowed to import external CSS framework (like Bootstrap)
