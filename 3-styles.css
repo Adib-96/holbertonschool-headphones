@@ -88,6 +88,7 @@ ul li a:hover {
 .main_part div p , .main_part div h1{
     font-family: "boldfont";
     margin: 0;
+    padding: 5px;
 
 }
 
@@ -103,7 +104,9 @@ ul li a:hover {
     font-size: 14px;
     margin:1rem 0 2rem 0;
     cursor: pointer;
-
+}
+.call_to_action:hover {
+    opacity: 0.9;
 }
 
 .main_part > p {
@@ -118,15 +121,30 @@ ul li a:hover {
 
 
 /*===================== MAIN SECTION ======================*/
-main {
+section article {
     max-width: 1000px;
-    height: 50vh;
     margin: 0 auto;
 }
 
+/*?Section 1*/
+
 /* WHAT WE DO ARTICLE*/
 
+main section article.what_we_do {
+    font-family: var(--main-font);
+    text-align: center;
+}
+main section article.what_we_do h2{
+    margin-top: 4rem;
+}
 
+main section article.what_we_do p{
+    max-width: 637px;
+    line-height: 1.5;
+    margin: auto;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -135,9 +153,108 @@ main {
 main section article.icons {
     display: flex;
     align-items: baseline;
+    margin: 5em auto;
+    gap: 4rem;
 }
 
 main section article.icons div {
     text-align: center;
 }
 
+#activité  {
+    font-weight: bold;
+    font-family: var(--main-font);
+    padding: 5px;
+}
+#text_desc {
+    line-height: 2;
+    font-size: 14px;
+}
+
+/*?Section 2*/
+
+.colored_section {
+    background-image: url('./images/headphones_hero_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; /* Center the image */
+    padding-top: 50px;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+
+.colored_section article {
+    font-family: var(--main-font);
+    text-align: center;
+    font-family: var(--main-font);
+    color: #FFFFFF;
+}
+
+
+.colored_section article h2 {
+    margin-top: 4rem;
+
+}
+
+.colored_section article p {
+    max-width: 637px;
+    line-height: 1.5;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.colored_section article .dot_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*?section 3 (contact us)*/
+article.contact_us {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+article.contact_us h2 {
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.contact_us form {
+    width: 100%;
+}
+.contact_us form div input {
+    border-bottom: 1px solid rgb(173, 173, 173);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding: 10px;
+    width: 40%;
+    margin: 1.5rem;
+}
+
+
+
+.solo_per {
+    text-align: center;
+    width: 162px;
+    height: 44px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+input::placeholder {
+    font-family: "boldfont";
+    font-weight: bold;
+    color: #071629;
+}
+
+
+/*==================FOOTER ==================*/
